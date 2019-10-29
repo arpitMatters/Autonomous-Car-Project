@@ -11,4 +11,3 @@ We are keeping **sigma** to be **33%** which is for most past the optimal ratio 
 python auto_canny.py --images images
 ```
 
-hello
