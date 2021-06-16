@@ -20,6 +20,9 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--images", required = True, help = "path to input dataset of images")
 args = vars(ap.parse_args())
 
+#this file is edited
+
+
 
 for imagePath in glob.glob(args["images"]+ "/*.jpg"):
     image = cv2.imread(imagePath)
